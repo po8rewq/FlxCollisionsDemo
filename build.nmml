@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="FlxSkaterMobile" package="com.revolugame.app" version="1.0.0" company="RevoluGame" />
+	<app main="Main" file="FlxSkaterMobile" path="bin" />
+		
+	<window width="640" height="480" if="target_flash" />
+	<window width="0" height="0" orientation="landscape" fullscreen="true" unless="target_flash" />
+	<window fps="30" background="0x000000" />
+
+	<source path="src" />
+	<source path="/home/adrien/Documents/Libs/HaxeFlixelTiled/" />
+	
+	<haxelib name="flixel" />
+	<haxelib name="nme" />
+	
+	<assets path="assets" include="*" exclude="nme.svg" />
+	<assets path="assets/levels" rename="levels" include="*.tmx" />
+	<assets path="assets/gfx" rename="gfx" include="*.png" />
+	
+	<icon path="assets/nme.svg" />
+	
+	<ndll name="std" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	<ndll name="nme" haxelib="nme" />
+	
+</project>
