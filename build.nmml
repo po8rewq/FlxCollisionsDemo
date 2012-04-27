@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="FlxSkaterMobile" package="com.revolugame.app" version="1.0.0" company="RevoluGame" />
-	<app main="Main" file="FlxSkaterMobile" path="bin" />
+	<meta title="FlxCollisionsDemo" package="com.revolugame.app" version="1.0.0" company="RevoluGame" />
+	<app main="Main" file="FlxCollisionsDemo" path="bin" />
 		
 	<window width="640" height="480" if="target_flash" />
 	<window width="0" height="0" orientation="landscape" fullscreen="true" unless="target_flash" />
