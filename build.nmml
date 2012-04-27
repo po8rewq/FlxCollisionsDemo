@@ -9,7 +9,7 @@
 	<window fps="30" background="0x000000" />
 
 	<source path="src" />
-	<source path="/home/adrien/Documents/Libs/HaxeFlixelTiled/" />
+	<source path="../HaxeFlixelTiled/" />
 	
 	<haxelib name="flixel" />
 	<haxelib name="nme" />
